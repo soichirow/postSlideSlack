@@ -8,9 +8,9 @@ class SlackApi {
    */
   constructor() {
     /** @type {string} */
-    this.token = PropertiesService.getScriptProperties().getProperty('USER_OAUTH_TOKEN');
+    //this.token = PropertiesService.getScriptProperties().getProperty('USER_OAUTH_TOKEN');
     /** @type {string} */
-    this.botToken = PropertiesService.getScriptProperties().getProperty('BOT_USER_OAUTH_TOKEN');
+    this.token = PropertiesService.getScriptProperties().getProperty('BOT_USER_OAUTH_TOKEN');
   }
 
   /**
